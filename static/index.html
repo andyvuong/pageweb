@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Website Visualization"/>
+        <meta property="og:title" content="Website Visualization"/>
+        <meta property="og:site_name" content="andyvuong"/>
+        <meta property="og:url" content="http://www.andyvuong.me"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:description" content="Website Visualization"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Page Web</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Page Web</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="panel" class="center-block"></div>
+                </div>
+            </div>
+            <div class="row equal">
+                <div class="col-sm-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h4>About</h4>
+                            <p>Enter a valid url and generate a data visualization of how websites are linked together starting from a single point of origin. Nodes represent webpages and links represent a connection between one website and another <strong>(# of nodes is capped)</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h4>Links</h4>
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-code"></i><a href="https://github.com/andyvuong/pageweb">Source Code</a></li>
+                                <li><i class="fa-li fa fa-hand-peace-o"></i><a href="http://andyvuong.me">About me</a></li>
+                                <li><i class="fa-li fa fa-envelope-o"></i><a href="mailto:avuong3@illinois.edu">Email me</a></li>
+                                <li><i class="fa-li fa fa-linkedin"></i><a href="https://linkedin.com/in/vuongandy">Linkedin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-body">
+                            <h4>Control Panel</h4>
+                            <form class="form-inline">
+                                <input type="text" class="form-control" id="inputBox" placeholder="Enter a valid URL">
+                                <select class="form-control">
+                                    <option>50</option>
+                                    <option>100</option>
+                                    <option>200</option>
+                                    <option>300</option>
+                                    <option>500</option>
+                                </select>
+                                <button type="submit" class="btn btn-warning">Visualize</button>
+                            </form>
+                            <hr>
+                            <p><strong>Example</strong>: https://en.wikipedia.org/wiki/Chicago </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="js/vis.js"></script>
+    </body>
+</html>

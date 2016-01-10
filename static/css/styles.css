@@ -1,0 +1,53 @@
+body {
+    background-color: #FFF;
+    min-height: 100%;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.notice {
+    font-size: 0.5em;
+    padding-top: 40px;
+}
+
+.equal {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+div[class*='col-'] {
+  flex:1 1 auto;
+  display: flex;
+}
+.panel {
+  flex:1 0 100%;
+}
+
+#panel {
+    opacity: 0.1;
+    width: 100%;
+}
+
+.navbar-inverse {
+    opacity: 0.85;
+}
+
+.node {
+    fill: #ccc;
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.node:hover {
+    opacity: 0.8;
+}
+
+.link {
+    stroke: #777;
+    stroke-width: 2px;
+}
