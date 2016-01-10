@@ -3,23 +3,53 @@ var width = 500;
 var color = d3.scale.category20();
 
 var force = d3.layout.force()
-.linkDistance(120)
+.linkDistance(320)
 .size([width, height]);
 
 var svg = d3.select("#panel").append("svg")
 .attr("width", width)
 .attr("height", height);
 
-$( "#dataTable tbody tr" ).on( "click", function() {
-    d3.json("crawl", function(error, json) {
-        data = json;
-        generateVisualization(data, force, svg, color, width, height);
-    })
-    .header("Content-Type","application/json")
-    .send("POST", JSON.stringify({input: "http://andyvuong.me", limit: "10"}));
+
+$("#submit").on("click", function(e) {
+    e.preventDefault();
+    if (!$("#submit").hasClass("buttonActive")) {
+        console.log("launching function");
+        $("#submit").addClass("buttonActive");
+
+        var inputVal = $("#inputBox").val();
+        var limitVal = $("#selection").find("option:selected").text();
+
+
+        d3.json("crawl", function(error, json) {
+            if (!error) {
+                data = json;
+                generateVisualization(data, force, svg, color, width, height);  
+            }
+            else {
+                console.log("Please try again");
+            }
+            $("#submit").removeClass("buttonActive");  
+        })
+        .header("Content-Type","application/json")
+        .send("POST", JSON.stringify({input: inputVal, limit: limitVal}));
+    }
+    else {
+        console.log("no go");
+    }
 });
 
-
+/*
+d3.json("test2.json", function(error, json) {
+        if (!error) {
+            data = json;
+            generateVisualization(data, force, svg, color, width, height);  
+        }
+        else {
+            console.log("Please try again");
+        }
+    })
+*/
 var generateVisualization = function(data) {
     var links = data.links;
     var nodes = data.nodes;
@@ -45,7 +75,7 @@ var generateVisualization = function(data) {
         .style("fill", function(d) { return color(d.group); })
         .call(force.drag)
         .on("click", function(d) {
-          // placeholder
+            $("#panel-text").text(d.url);
         });
 
     // make the original domain larger

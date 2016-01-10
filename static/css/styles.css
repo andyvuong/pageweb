@@ -29,8 +29,21 @@ div[class*='col-'] {
 }
 
 #panel {
-    opacity: 0.1;
+    text-align: center;
     width: 100%;
+}
+
+.down {
+  position: absolute;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  bottom: 0; 
+}
+
+#panel-span {
+  margin-bottom: 5%;
+  margin-left: 1%;
+  bottom: 0;  
 }
 
 .navbar-inverse {

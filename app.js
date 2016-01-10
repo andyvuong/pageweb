@@ -12,6 +12,10 @@ app.use(bodyParser.json());
 var count = 1;
 var group = 0;
 
+/**
+ * Handles the post request for crawling 
+ *
+ */
 app.post("/crawl", function(req, res) {
     if (req.body) {
         var domain = req.body.input;
@@ -25,11 +29,12 @@ app.post("/crawl", function(req, res) {
     var linkMap = [];
     var crawlQueue = [domain];
 
+    console.log("Beginning Crawl");
     nodeMap[domain] = 0;
     crawl(domain, limit, nodeMap, linkMap, crawlQueue, function(err, results) {
-        if (!err) {
-
+        if (!err && results) {
             var dataFile = constructDataFile(results);
+            console.log("Successful crawl");
             res.setHeader('Content-Type', 'application/json');
             res.send(JSON.stringify(dataFile));
         }
@@ -60,35 +65,38 @@ var constructDataFile = function(data) {
  */
 var crawl = function(domain, limit, nodeMap, linkMap, crawlQueue, call) {
     async.whilst(function() {
-        return count <= limit && crawlQueue.length != 0;
+        return count <= limit;
         },
         function(callback) {
             var currentUrl = crawlQueue.pop();
             requestUrl(currentUrl, crawlQueue, nodeMap, linkMap, callback);
         },
         function(err, n) {
-            if (!err) {
+            if (!err && !n) {
                 //console.log("results:" + n.links.length);
                 call(null, n);
             }
             else {
-                call(false, null);
+                call(false, n);
             }
         }
     );
 };
 
 var requestUrl = function(currentUrl, crawlQueue, nodeMap, linkMap, callback) {
-    request(currentUrl, function(err, response, doc) {
-        var processedLinks = processPage(err, response, doc);
-        count = updateMapping(currentUrl, processedLinks, nodeMap, linkMap);
-        concat(crawlQueue, processedLinks);
-        var results = {
-            queue: crawlQueue,
-            links: linkMap,
-            nodes: nodeMap
+    request(currentUrl, {timeout: 1500}, function(err, response, doc) {
+        if (!err) {
+            var processedLinks = processPage(err, response, doc);
+                console.log("processing: " + count);
+            updateMapping(currentUrl, processedLinks, nodeMap, linkMap);
+            concat(crawlQueue, processedLinks);
+            var results = {
+                queue: crawlQueue,
+                links: linkMap,
+                nodes: nodeMap
+            }
+            callback(null, results);
         }
-        callback(null, results);
     }); 
 };
 
@@ -130,7 +138,6 @@ var updateMapping = function(currentUrl, links, nodeMap, linkMap) {
             linkMap.push({ source: nodeMap[currentUrl], target: nodeMap[links[i]] });
         }
     }
-    return count;
 }
 
 
