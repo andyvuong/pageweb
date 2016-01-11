@@ -20,6 +20,23 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">Page Web</a>
                 </div>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">[Examples <span class="caret"></span> ]</a>
+                        <ul class="dropdown-menu">
+                            <li><a id="sample-1" href="#">http://andyvuong.me (32)</a></li>
+                            <li><a id="sample-2" href="#">http://getskeleton.com (64)</a></li>
+                            <li><a id="sample-3" href="#">https://en.wikipedia.org/wiki/Photography (64)</a></li> 
+                        </ul>
+                    </li>
+                    <li><a href="#">[Highest Links]</a></li>
+                    <li><a href="#">[Shortest Path]</a></li>
+                    <li><a>Statistics:</a></li>
+                    <li><a id="statistics"></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="fa fa-hand-pointer-o"></span> - Click on the nodes to see the URL information!</a></li>
+                </ul>
             </div>
         </nav>
         <div class="container">
@@ -64,7 +81,7 @@
                                     <option>16</option>
                                     <option>32</option>
                                     <option>64</option>
-                                    <option>128</option>
+                                    <option>2</option>
                                 </select>
                                 <button id="submit" type="submit" class="btn btn-warning">Visualize</button>
                             </form>
@@ -76,7 +93,8 @@
             </div>
         </div>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-        <script src="http://d3js.org/d3.v3.min.js"></script>
-        <script src="js/vis.js"></script>
+        <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/vis.js"></script>
     </body>
 </html>

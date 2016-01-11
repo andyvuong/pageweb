@@ -1,0 +1,769 @@
+{
+    "nodes": [
+        {
+            "index": 0,
+            "url": "https://en.wikipedia.org/wiki/Photography",
+            "group": 8
+        },
+        {
+            "index": 1,
+            "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dfa%2Fos",
+            "group": 5
+        },
+        {
+            "index": 2,
+            "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dgrafh%2F",
+            "group": 9
+        },
+        {
+            "index": 3,
+            "url": "http://www.etymonline.com/index.php?term=photograph",
+            "group": 8
+        },
+        {
+            "index": 4,
+            "url": "https://books.google.com/books?id=wCoQAAAACAAJ",
+            "group": 0
+        },
+        {
+            "index": 5,
+            "url": "https://books.google.com/books?id=lOEqvkmSxhsC&pg=PA114",
+            "group": 2
+        },
+        {
+            "index": 6,
+            "url": "https://books.google.com/?id=MTXdplfiz-cC&pg=PA20",
+            "group": 4
+        },
+        {
+            "index": 7,
+            "url": "http://micro.magnet.fsu.edu/optics/timeline/people/magnus.html",
+            "group": 2
+        },
+        {
+            "index": 8,
+            "url": "http://repository.up.ac.za/xmlui/bitstream/handle/2263/16857/Allen_Shroud%281993%29.pdf",
+            "group": 6
+        },
+        {
+            "index": 9,
+            "url": "http://web.archive.org/web/20070810183016/http://www.unisa.ac.za/Default.asp?Cmd=ViewContent&ContentID=7268",
+            "group": 1
+        },
+        {
+            "index": 10,
+            "url": "https://books.google.com/books?id=GDSRJQ3BZ5EC&pg=PA3",
+            "group": 7
+        },
+        {
+            "index": 11,
+            "url": "http://www.hrc.utexas.edu/exhibitions/permanent/wfp/heliography.html",
+            "group": 2
+        },
+        {
+            "index": 12,
+            "url": "https://archive.org/details/tomwedgwoodfirst00litcrich",
+            "group": 4
+        },
+        {
+            "index": 13,
+            "url": "https://books.google.com/books?id=vftTAAAAMAAJ",
+            "group": 5
+        },
+        {
+            "index": 14,
+            "url": "http://www.bbc.co.uk/history/historic_figures/fox_talbot_william_henry.shtml",
+            "group": 10
+        },
+        {
+            "index": 15,
+            "url": "http://www.kodak.com/global/en/corp/historyOfKodak/1878.jhtml",
+            "group": 1
+        },
+        {
+            "index": 16,
+            "url": "http://www.dpreview.com/forums/post/8473695",
+            "group": 7
+        },
+        {
+            "index": 17,
+            "url": "http://www.zhongart.com/marcol/premier/photoA_files/synthesis%20photography%20and%20architecture.html",
+            "group": 6
+        },
+        {
+            "index": 18,
+            "url": "http://www.dpreview.com/learn/?/glossary/",
+            "group": 6
+        },
+        {
+            "index": 19,
+            "url": "https://web.archive.org/web/20091124182503/http://www.uca.edu/org/ccsmi/ccsmi/classicwork/Myth%20Revisited.htm",
+            "group": 10
+        },
+        {
+            "index": 20,
+            "url": "http://dictionary.reference.com/browse/focus",
+            "group": 5
+        },
+        {
+            "index": 21,
+            "url": "http://www.eso.org/public/images/potw1350a/",
+            "group": 4
+        },
+        {
+            "index": 22,
+            "url": "http://www.academia.edu/4450652/The_Dimensional_Image_Overlapping_Dimensions_of_Stereoscopic_Cinematic_and_Digital_Depth_Film_Criticism_",
+            "group": 6
+        },
+        {
+            "index": 23,
+            "url": "http://web.archive.org/web/20120215235949/http://surrealcolor.110mb.com/IR_explained_web/IR_explained.htm#CamColor",
+            "group": 6
+        },
+        {
+            "index": 24,
+            "url": "http://web.archive.org/web/20120916121457/http://www.lytro.com/renng-thesis.pdf",
+            "group": 2
+        },
+        {
+            "index": 25,
+            "url": "http://www.eso.org/public/images/potw1215a/",
+            "group": 6
+        },
+        {
+            "index": 26,
+            "url": "http://www.csulb.edu/~jvancamp/361r13.html",
+            "group": 4
+        },
+        {
+            "index": 27,
+            "url": "https://books.google.com/books?id=DhfnAAAAMAAJ&pg=PA309",
+            "group": 5
+        },
+        {
+            "index": 28,
+            "url": "https://books.google.com/books?id=a0nmdTmHMrIC&pg=PA8",
+            "group": 9
+        },
+        {
+            "index": 29,
+            "url": "https://books.google.com/?id=bhhtg1sz0YAC&printsec=frontcover",
+            "group": 7
+        },
+        {
+            "index": 30,
+            "url": "http://lse.academia.edu/AlexGillespie/Papers/89836/Tourist_photography_and_the_reverse_gaze",
+            "group": 1
+        },
+        {
+            "index": 31,
+            "url": "https://web.archive.org/web/20100327183624/http://www.bjp-online.com/public/showPage.html?page=836675",
+            "group": 7
+        },
+        {
+            "index": 32,
+            "url": "https://books.google.com/?id=fu3akyrFZEMC&pg=PP1&dq=intitle:Dictionary+intitle:of+intitle:Photography+intitle:and+intitle:Digital+intitle:Imaging+inauthor:ang",
+            "group": 1
+        },
+        {
+            "index": 33,
+            "url": "https://www.dmoz.org/Arts/Photography",
+            "group": 6
+        },
+        {
+            "index": 34,
+            "url": "http://all-art.org/history658_photography1.html",
+            "group": 8
+        },
+        {
+            "index": 35,
+            "url": "http://www.floridamemory.com/photographiccollection/photo_exhibits/photographic-processes/",
+            "group": 2
+        },
+        {
+            "index": 36,
+            "url": "http://click.si.edu",
+            "group": 0
+        },
+        {
+            "index": 37,
+            "url": "http://d-nb.info/gnd/4045895-7",
+            "group": 3
+        },
+        {
+            "index": 38,
+            "url": "http://id.ndl.go.jp/auth/ndlna/00571967",
+            "group": 6
+        },
+        {
+            "index": 39,
+            "url": "https://en.wikipedia.org/w/index.php?title=Photography&oldid=696711018",
+            "group": 7
+        },
+        {
+            "index": 40,
+            "url": "https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en",
+            "group": 5
+        },
+        {
+            "index": 41,
+            "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute",
+            "group": 2
+        },
+        {
+            "index": 42,
+            "url": "http://catalog.perseus.org",
+            "group": 8
+        },
+        {
+            "index": 43,
+            "url": "http://sites.tufts.edu/perseuscatalog/f-a-q/",
+            "group": 1
+        },
+        {
+            "index": 44,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/user-guide/searching/",
+            "group": 10
+        },
+        {
+            "index": 45,
+            "url": "http://sites.tufts.edu/perseuscatalog/2015/08/27/regarding-the-perseus-catalogs-data-and-how-it-is-created/",
+            "group": 3
+        },
+        {
+            "index": 46,
+            "url": "http://sites.tufts.edu/perseuscatalog/2015/07/10/catalog-update-and-potential-downtime/",
+            "group": 10
+        },
+        {
+            "index": 47,
+            "url": "http://sites.tufts.edu/perseuscatalog/",
+            "group": 8
+        },
+        {
+            "index": 48,
+            "url": "http://www.perseus.tufts.edu",
+            "group": 9
+        },
+        {
+            "index": 49,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/",
+            "group": 9
+        },
+        {
+            "index": 50,
+            "url": "http://sites.tufts.edu/perseuscatalog",
+            "group": 10
+        },
+        {
+            "index": 51,
+            "url": "http://sites.tufts.edu/perseuscatalog/feed/",
+            "group": 4
+        },
+        {
+            "index": 52,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/history-and-purpose/",
+            "group": 1
+        },
+        {
+            "index": 53,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/history-and-purpose/purpose/",
+            "group": 9
+        },
+        {
+            "index": 54,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/history-and-purpose/evolution-growth-of-the-catalog/",
+            "group": 6
+        },
+        {
+            "index": 55,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/history-and-purpose/acknowledgements/",
+            "group": 1
+        },
+        {
+            "index": 56,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/history-and-purpose/references/",
+            "group": 7
+        },
+        {
+            "index": 57,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/release-notes/",
+            "group": 3
+        },
+        {
+            "index": 58,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/release-notes/current-features/",
+            "group": 0
+        },
+        {
+            "index": 59,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/release-notes/data-limitations/",
+            "group": 1
+        },
+        {
+            "index": 60,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/release-notes/next-steps-roadmap/",
+            "group": 1
+        },
+        {
+            "index": 61,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/release-notes/next-steps-roadmap/roadmap-towards-linked-data-standards-compliance/",
+            "group": 2
+        },
+        {
+            "index": 62,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/release-notes/softwarehardware-info/",
+            "group": 0
+        },
+        {
+            "index": 63,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/user-guide/",
+            "group": 9
+        },
+        {
+            "index": 64,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/user-guide/browsing/",
+            "group": 4
+        },
+        {
+            "index": 65,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/user-guide/results/",
+            "group": 7
+        },
+        {
+            "index": 66,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/user-guide/catalogdata-uris/",
+            "group": 6
+        },
+        {
+            "index": 67,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/user-guide/definitions-of-terms/",
+            "group": 1
+        },
+        {
+            "index": 68,
+            "url": "http://sites.tufts.edu/perseuscatalog/documentation/contact-us/",
+            "group": 8
+        },
+        {
+            "index": 69,
+            "url": "http://sites.tufts.edu/perseuscatalog/f-a-q/what-is-the-perseus-catalog/",
+            "group": 5
+        },
+        {
+            "index": 70,
+            "url": "http://sites.tufts.edu/perseuscatalog/f-a-q/how-are-the-record-identifiers-created/",
+            "group": 10
+        },
+        {
+            "index": 71,
+            "url": "http://sites.tufts.edu/perseuscatalog/what-is-the-meaning-of-tlg-phi-and-stoa-in-the-record-identifiers/",
+            "group": 1
+        },
+        {
+            "index": 72,
+            "url": "http://sites.tufts.edu/perseuscatalog/what-is-a-work-identifier/",
+            "group": 10
+        },
+        {
+            "index": 73,
+            "url": "http://sites.tufts.edu/perseuscatalog/f-a-q/does-the-perseus-catalog-support-linked-data-standards/",
+            "group": 4
+        },
+        {
+            "index": 74,
+            "url": "http://sites.tufts.edu/perseuscatalog/f-a-q/how-do-i-request-a-correction-or-addition-to-the-perseus-catalog/",
+            "group": 1
+        },
+        {
+            "index": 75,
+            "url": "http://sites.tufts.edu/perseuscatalog/f-a-q/is-there-a-search-api-available/",
+            "group": 10
+        },
+        {
+            "index": 76,
+            "url": "http://sites.tufts.edu/perseuscatalog/our-logo/",
+            "group": 3
+        },
+        {
+            "index": 77,
+            "url": "http://catalog.perseus.tufts.edu",
+            "group": 3
+        },
+        {
+            "index": 78,
+            "url": "http://www.pagelines.com/",
+            "group": 1
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1
+        },
+        {
+            "source": 0,
+            "target": 2
+        },
+        {
+            "source": 0,
+            "target": 3
+        },
+        {
+            "source": 0,
+            "target": 4
+        },
+        {
+            "source": 0,
+            "target": 5
+        },
+        {
+            "source": 0,
+            "target": 6
+        },
+        {
+            "source": 0,
+            "target": 7
+        },
+        {
+            "source": 0,
+            "target": 8
+        },
+        {
+            "source": 0,
+            "target": 9
+        },
+        {
+            "source": 0,
+            "target": 10
+        },
+        {
+            "source": 0,
+            "target": 11
+        },
+        {
+            "source": 0,
+            "target": 12
+        },
+        {
+            "source": 0,
+            "target": 13
+        },
+        {
+            "source": 0,
+            "target": 14
+        },
+        {
+            "source": 0,
+            "target": 15
+        },
+        {
+            "source": 0,
+            "target": 16
+        },
+        {
+            "source": 0,
+            "target": 17
+        },
+        {
+            "source": 0,
+            "target": 18
+        },
+        {
+            "source": 0,
+            "target": 19
+        },
+        {
+            "source": 0,
+            "target": 20
+        },
+        {
+            "source": 0,
+            "target": 21
+        },
+        {
+            "source": 0,
+            "target": 22
+        },
+        {
+            "source": 0,
+            "target": 23
+        },
+        {
+            "source": 0,
+            "target": 24
+        },
+        {
+            "source": 0,
+            "target": 25
+        },
+        {
+            "source": 0,
+            "target": 26
+        },
+        {
+            "source": 0,
+            "target": 27
+        },
+        {
+            "source": 0,
+            "target": 28
+        },
+        {
+            "source": 0,
+            "target": 29
+        },
+        {
+            "source": 0,
+            "target": 30
+        },
+        {
+            "source": 0,
+            "target": 31
+        },
+        {
+            "source": 0,
+            "target": 32
+        },
+        {
+            "source": 0,
+            "target": 33
+        },
+        {
+            "source": 0,
+            "target": 34
+        },
+        {
+            "source": 0,
+            "target": 35
+        },
+        {
+            "source": 0,
+            "target": 36
+        },
+        {
+            "source": 0,
+            "target": 37
+        },
+        {
+            "source": 0,
+            "target": 38
+        },
+        {
+            "source": 0,
+            "target": 39
+        },
+        {
+            "source": 0,
+            "target": 40
+        },
+        {
+            "source": 0,
+            "target": 41
+        },
+        {
+            "source": 1,
+            "target": 42
+        },
+        {
+            "source": 42,
+            "target": 43
+        },
+        {
+            "source": 42,
+            "target": 44
+        },
+        {
+            "source": 42,
+            "target": 45
+        },
+        {
+            "source": 42,
+            "target": 45
+        },
+        {
+            "source": 42,
+            "target": 46
+        },
+        {
+            "source": 42,
+            "target": 46
+        },
+        {
+            "source": 42,
+            "target": 47
+        },
+        {
+            "source": 42,
+            "target": 48
+        },
+        {
+            "source": 42,
+            "target": 49
+        },
+        {
+            "source": 43,
+            "target": 50
+        },
+        {
+            "source": 43,
+            "target": 51
+        },
+        {
+            "source": 43,
+            "target": 47
+        },
+        {
+            "source": 43,
+            "target": 49
+        },
+        {
+            "source": 43,
+            "target": 52
+        },
+        {
+            "source": 43,
+            "target": 53
+        },
+        {
+            "source": 43,
+            "target": 54
+        },
+        {
+            "source": 43,
+            "target": 55
+        },
+        {
+            "source": 43,
+            "target": 56
+        },
+        {
+            "source": 43,
+            "target": 57
+        },
+        {
+            "source": 43,
+            "target": 58
+        },
+        {
+            "source": 43,
+            "target": 59
+        },
+        {
+            "source": 43,
+            "target": 60
+        },
+        {
+            "source": 43,
+            "target": 61
+        },
+        {
+            "source": 43,
+            "target": 62
+        },
+        {
+            "source": 43,
+            "target": 63
+        },
+        {
+            "source": 43,
+            "target": 64
+        },
+        {
+            "source": 43,
+            "target": 44
+        },
+        {
+            "source": 43,
+            "target": 65
+        },
+        {
+            "source": 43,
+            "target": 66
+        },
+        {
+            "source": 43,
+            "target": 67
+        },
+        {
+            "source": 43,
+            "target": 68
+        },
+        {
+            "source": 43,
+            "target": 43
+        },
+        {
+            "source": 43,
+            "target": 69
+        },
+        {
+            "source": 43,
+            "target": 70
+        },
+        {
+            "source": 43,
+            "target": 71
+        },
+        {
+            "source": 43,
+            "target": 72
+        },
+        {
+            "source": 43,
+            "target": 73
+        },
+        {
+            "source": 43,
+            "target": 74
+        },
+        {
+            "source": 43,
+            "target": 75
+        },
+        {
+            "source": 43,
+            "target": 76
+        },
+        {
+            "source": 43,
+            "target": 69
+        },
+        {
+            "source": 43,
+            "target": 70
+        },
+        {
+            "source": 43,
+            "target": 70
+        },
+        {
+            "source": 43,
+            "target": 70
+        },
+        {
+            "source": 43,
+            "target": 73
+        },
+        {
+            "source": 43,
+            "target": 74
+        },
+        {
+            "source": 43,
+            "target": 75
+        },
+        {
+            "source": 43,
+            "target": 77
+        },
+        {
+            "source": 43,
+            "target": 48
+        },
+        {
+            "source": 43,
+            "target": 78
+        }
+    ]
+}

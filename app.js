@@ -14,11 +14,9 @@ log4js.replaceConsole()
 
 // important globals
 var logger = log4js.getLogger();
-var limits = [8, 16, 32, 64, 128];
+var limits = [8, 16, 32, 64, 2];
 var count = 1;
 var group = 0;
-
-//logger.setLevel("ERROR");
 
 /**
  * Handles the post request for crawling 
@@ -40,7 +38,7 @@ app.post("/crawl", function(req, res) {
             var dataFile = constructDataFile(results);
 
             logger.info("Sending response.");
-            writeFile(dataFile); // TODO remove after testing complete
+            //writeFile(dataFile); // TODO remove after testing complete
             
             res.setHeader('Content-Type', 'application/json');
             return res.send(dataFile);
@@ -73,10 +71,15 @@ var crawl = function(url, limit, call) {
     nodeMap[url] = 0; // mark the origin domain as the first node in the mapping
 
     async.whilst(function() {
-        return count <= limit;
+        //logger.debug(crawlQueue); // TODO - debug mapping and refactor links to use keys
+        if (count >= limit) {
+            return false;
+        }
+        return crawlQueue.length != 0;
         },
         function(callback) {
-            var currentUrl = crawlQueue.pop();
+            var currentUrl = getUrl(url, crawlQueue, nodeMap);
+            logger.debug("Current URL: " + currentUrl);
             requestUrl(currentUrl, crawlQueue, nodeMap, linkMap, callback);
         },
         function(err, n) { // this is the callback used by the above function, passed in as 'callback'
@@ -89,6 +92,20 @@ var crawl = function(url, limit, call) {
         }
     );
 };
+
+// Return the next url to be processed that is not in the map already
+var getUrl = function(originalUrl, crawlQueue, nodeMap) {
+    var currentUrl = crawlQueue.pop();
+    if (originalUrl === currentUrl) {
+        return originalUrl;
+    }
+    else {
+        while (currentUrl in nodeMap && crawlQueue.length > 0) {
+            currentUrl = crawlQueue.pop();
+        }
+        return currentUrl;
+    }
+}
 
 /**
  * Makes an http request to the given url and extracts the web links from the returned html page to add to the crawl queue
@@ -118,6 +135,7 @@ var requestUrl = function(currentUrl, crawlQueue, nodeMap, linkMap, callback) {
             callback(null, null);
         }
     }); 
+    
 };
 
 
@@ -166,7 +184,7 @@ var constructDataFile = function(data) {
     return JSON.stringify({
         nodes: nodeArr,
         links: data.links
-    }, null, 4); // TODO remove tabs after
+    }); //, null, 4); // TODO remove tabs after
 }
 
 // Return a random integer from min to max.
