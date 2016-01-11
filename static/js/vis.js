@@ -23,6 +23,7 @@ $("#submit").on("click", function(e) {
 
         d3.json("crawl", function(error, json) {
             if (!error) {
+                svg.selectAll("*").remove();
                 data = json;
                 generateVisualization(data, force, svg, color, width, height);  
             }
